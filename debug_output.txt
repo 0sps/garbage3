@@ -1,0 +1,26 @@
+2026-01-09 21:24:27,730 - INFO - API fetched 1 raw markets.
+2026-01-09 21:24:27,730 - INFO - Filtered to 1 valid markets with token IDs.
+Market: Will Trump say "Peanut" this week? (January 18)
+Token ID: 10525588329361806072515737406758280933866564018554251182217300496370852280329
+First trade raw data:
+{
+  "proxyWallet": "0xe3726a1b9c6ba2f06585d1c9e01d00afaedaeb38",
+  "side": "SELL",
+  "asset": "105550343608993305249589329137685385171551505296503241871995618038456208122060",
+  "conditionId": "0xb9db6ee9c30a47c485cd38730cf47ff79c62632db47f529ac9e5314a3b294a1f",
+  "size": 92.64,
+  "price": 0.109,
+  "timestamp": 1768011838,
+  "title": "Will Elon Musk post 560-579 tweets from January 9 to January 16, 2026?",
+  "slug": "elon-musk-of-tweets-january-9-january-16-560-579",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
+  "eventSlug": "elon-musk-of-tweets-january-9-january-16",
+  "outcome": "Yes",
+  "outcomeIndex": 0,
+  "name": "cry.eth2",
+  "pseudonym": "Awkward-Patriot",
+  "bio": "amm",
+  "profileImage": "",
+  "profileImageOptimized": "",
+  "transactionHash": "0x327a7cc625050b78f4d95c36e46dc9bad811ad3ded188839675e16c1049201dc"
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket Insider Monitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <h1>Polymarket Insider</h1>
+            </div>
+            <div class="status-indicator">
+                <span class="dot pulse"></span>
+                <span>Live Monitoring</span>
+            </div>
+        </header>
+
+        <main>
+            <div class="stats-bar">
+                <div class="stat-card">
+                    <h3>Large Trades</h3>
+                    <div class="value" id="stats-count">0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Value</h3>
+                    <div class="value" id="stats-value">$0</div>
+                </div>
+                <div class="stat-card highlight">
+                    <h3>Potential Insiders</h3>
+                    <div class="value" id="stats-insiders">0</div>
+                </div>
+            </div>
+
+            <!-- Insider Alerts Section -->
+            <div class="feed-container alert-section" id="alert-container" style="display: none;">
+                <h2 class="alert-title">🚨 Insider Alerts</h2>
+                <div class="table-header">
+                    <span class="col-time">Time</span>
+                    <span class="col-prob">Prob</span>
+                    <span class="col-market">Market / Outcome</span>
+                    <span class="col-value">Value</span>
+                    <span class="col-history" title="User Trade Count">History</span>
+                    <span class="col-user">User</span>
+                </div>
+                <div id="insider-feed" class="trade-feed"></div>
+            </div>
+
+            <div class="feed-container">
+                <h2>Real-time Feed</h2>
+                <div class="table-header">
+                    <span class="col-time">Time</span>
+                    <span class="col-prob">Prob</span>
+                    <span class="col-market">Market / Outcome</span>
+                    <span class="col-value">Value</span>
+                    <span class="col-history" title="User Trade Count">History</span>
+                    <span class="col-user">User</span>
+                </div>
+                <div id="trade-feed" class="trade-feed">
+                    <!-- Trades will be injected here -->
+                    <div class="loading-state">Waiting for trades...</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

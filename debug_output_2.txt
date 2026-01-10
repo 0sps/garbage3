@@ -1,0 +1,29 @@
+2026-01-09 21:24:59,129 - INFO - API fetched 1 raw markets.
+2026-01-09 21:24:59,129 - INFO - Filtered to 1 valid markets with token IDs.
+Proxy Wallet: 0xe3726a1b9c6ba2f06585d1c9e01d00afaedaeb38
+Fetching activity for proxy wallet...
+Activity count: 50
+First activity item:
+{
+  "proxyWallet": "0xe3726a1b9c6ba2f06585d1c9e01d00afaedaeb38",
+  "timestamp": 1768011838,
+  "conditionId": "0x1dd8f79e37b4e76a26451810c133a2530385324b4cdb52712a2700a53569cbf3",
+  "type": "TRADE",
+  "size": 92.64,
+  "usdcSize": 3.2424,
+  "transactionHash": "0x8c91a9c8fc7af51e93a0618c245a24f4170c2672f27c53e88382fd1960a9ef69",
+  "price": 0.035,
+  "asset": "79351414275577079428856696662783429143030611870337858703446872020584212063126",
+  "side": "SELL",
+  "outcomeIndex": 0,
+  "title": "Will Elon Musk post 400-419 tweets from January 9 to January 16, 2026?",
+  "slug": "elon-musk-of-tweets-january-9-january-16-400-419",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
+  "eventSlug": "elon-musk-of-tweets-january-9-january-16",
+  "outcome": "Yes",
+  "name": "cry.eth2",
+  "pseudonym": "Awkward-Patriot",
+  "bio": "amm",
+  "profileImage": "",
+  "profileImageOptimized": ""
+}
