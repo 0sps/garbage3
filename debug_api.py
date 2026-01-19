@@ -7,6 +7,8 @@ def debug():
     if not markets:
         print("No markets found, sorrrry")
         return
+        
+        # can't edit that
 
     market = markets[0]
     tokens = market.get('clobTokenIds', [])
