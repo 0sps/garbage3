@@ -5,7 +5,9 @@ def debug():
     api = PolymarketAPI()
     markets = api.get_top_markets(limit=1, active=True)
     if not markets:
-        print("No markets found, sorrrry")
+
+        print("No marketssssssss found boii, sorrrry")
+
         return
 
     market = markets[0]
